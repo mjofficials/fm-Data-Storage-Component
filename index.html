@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON LINK -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- GOOGLE FONT LINK -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="component-wrapper">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="fylo logo" />
+          <div class="menu">
+            <div class="menu__icon">
+              <img src="./images/icon-document.svg" alt="document icon" />
+            </div>
+            <div class="menu__icon">
+              <img src="./images/icon-folder.svg" alt="folder icon" />
+            </div>
+            <div class="menu__icon">
+              <img src="./images/icon-upload.svg" alt="upload icon" />
+            </div>
+          </div>
+        </div>
+
+        <div class="storage">
+          <p>You’ve used <strong>815 GB</strong> of your storage</p>
+          <div class="storage__meter">
+            <div class="meter">
+              <div class="meter__progress-bar">
+                <div class="meter__progress-bar--dot"></div>
+              </div>
+            </div>
+            <div class="storage__meter--label">
+              <p>0 GB</p>
+              <p>1000 GB</p>
+            </div>
+          </div>
+          <div class="remaining-space-box">
+            <p>185</p>
+            <p class="remaining-space-box__label">GB Left</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
